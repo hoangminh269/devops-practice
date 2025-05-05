@@ -15,7 +15,7 @@ function add(a, b) {
 // Only start server if not testing
 if (process.env.NODE_ENV !== 'test') {
   app.listen(port, () => {
-    console.log(`App listening at http://localhost:${port}`);
+    console.log('App is running! Version 2.0');
   });
 }
 
